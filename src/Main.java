@@ -4,7 +4,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Arrays;
 
 public class Main {
-	static final int size = 10000000;
+	static final int size = 100_000_000;
 	static final int h = size / 2;
 
 	public static float @NotNull [] execute(boolean parallel) {

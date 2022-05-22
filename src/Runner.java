@@ -19,7 +19,7 @@ public class Runner implements Runnable {
 		}
 	}
 
-	private synchronized float calculate(int index, float value) {
+	private float calculate(int index, float value) {
 		return (float)(
 				value *
 						Math.sin(0.2f + (index + offset) / 5f) *
